@@ -68,6 +68,9 @@
                 <data android:mimeType="application/msword" />
                 <data android:mimeType="application/vnd.ms-powerpoint" />
                 <data android:mimeType="application/pdf" />
+        <!-- Begin add for lewa theme to share by BT, fulianwu-->
+                <data android:mimeType="*/lwt" />
+                <!-- End-->
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.SEND_MULTIPLE" />
